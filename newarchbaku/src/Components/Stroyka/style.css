@@ -1,0 +1,25 @@
+.stroyka {
+    /* background-image: url(../../assets/images/Group481.svg); */
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+  }
+  .stroyka-title {
+    font-size: 50px;
+    color: #fff;
+  }
+  .stroyka-text {
+    margin-top: 22px;
+    text-align: center;
+  
+    width: 600px;
+  }
+  .stroyka-button {
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    margin-top: 70px;
+  }

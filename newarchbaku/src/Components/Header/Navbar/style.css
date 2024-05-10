@@ -1,0 +1,64 @@
+
+.connections {
+  background: #016b38;
+  width: 1440px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.tele {
+  width: 15px;
+  height: 15px;
+}
+.mail {
+  width: 15px;
+  height: 15px;
+}
+.number {
+  color: #fff;
+}
+.gmail {
+  color: #fff;
+}
+.baki {
+  color: #fff;
+}
+
+.address {
+  width: 15px;
+  height: 15px;
+}
+.facebook {
+  width: 19px;
+  height: 19px;
+  color: #fff;
+}
+.instagram,
+.linkedin,
+.whatsapp {
+  width: 20px;
+  height: 20px;
+}
+.container {
+  max-width: 1320px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.left-contact,
+.right-contact {
+  display: flex;
+  align-items: center;
+  > li {
+    display: flex;
+    .mail {
+      width: 15px;
+      height: 15px;
+    }
+    /* > img {
+      width: 30px;
+      height: 30px;
+    } */
+  }
+}

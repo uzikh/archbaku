@@ -1,0 +1,90 @@
+.Layihələr {
+    background-image: url(.//../../assets/images/Group42.svg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 70px 100px;
+  }
+  .layiheler-h2 {
+    color: #fff;
+    font-size: 43px;
+  }
+  .layiheler-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 95%; */
+  }
+  .layihe-btn {
+    background-color: transparent;
+    height: 60px;
+    width: 160px;
+    color: #ffffff;
+    /* border: #fff; */
+    border: solid;
+    font-size: 22px;
+  }
+  .layihe-btn:hover{
+    background-color: #fff;
+    color: #5e5e5e;
+    transition: .4s;
+  }
+  
+  
+  .layiheler-img {
+  
+    margin-top: 50px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+  }
+  .photo-desc{
+    position: absolute;
+    color: #fff;
+  }
+  .layiheler-photo1{
+    width: 300px;
+    height: 360px;
+    
+      background-image: url(.//../../assets/images/Rectangle9.svg);
+  }
+  .layiheler-photo2{
+    width: 350px;
+    height: 360px;
+    background-image: url(.//..//../assets/images/Rectangle11.svg);
+  }
+  .layiheler-photo3{
+    width: 350px;
+    height: 360px;
+    background-image: url(.//..//../assets/images/Rectangle13.svg);
+  }
+  .layiheler-photo4{
+    width: 350px;
+    height: 360px;
+    background-image: url(.//..//../assets/images/Rectangle15.svg);
+  
+  }
+  .layiheler-photo1,.layiheler-photo2,.layiheler-photo3,.layiheler-photo4{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;        
+    font-size: 20px;
+  }
+  .layihelər-text{
+    width: 56%;
+    margin-left: 17px;
+    margin-bottom: 30px;
+    
+  }
+  
+  .layiheler-etrafli{
+    margin-left: 17px;
+    margin-bottom: 10px;
+    color: #b08968;
+  }
