@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.css";
-import s from "../../assets/images/Group42.svg"
+import s from "../../assets/Rectanglestroy.svg"
 
 function Haqqimizda() {
   return (

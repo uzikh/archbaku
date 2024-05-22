@@ -1,7 +1,31 @@
+.xidmetler-section-top{
+  background-image: url(../../assets/helmet-projects-image.png);
+  background-position: center center;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  color: white;
+}
+.xidmetler-top-content{
+  background-color: #0A4227;
+  opacity: 85%;
+  padding: 100px 140px;
+  font-family: "Roboto", sans-serif;
+}
+.xidmetler-top-content-text{
+  padding-left: 15px;
+  padding-top: 20px;
+  font-weight: 500;
+  font-style: normal;
+}
+.xidmetler-top-content-text-span{
+  color: #b08968;
+}
 .xidmetler{
     padding: 95px;
     font-size: 35px;
     background-image:url(.//../../assets/images/xidmetler.svg);
+    background-position: center center;
+  background-size: cover ;
     background-repeat: no-repeat;
     width: 100%;
     height: 90%;
@@ -24,7 +48,7 @@
   
   }
   .xidmetler-main2{
-    margin-left: 35px;
+    padding: 20px;
   }
   .xidmetler-main-p{
     width: 303px;
@@ -36,7 +60,14 @@
     font-size: 14px;
   }
   .xidmetler-main-etrafli{
-    font-size: 16px;
+    font-size: 22px;
     color: #016B38;
-    ;
+    
+  }
+  .uzeir{
+    padding: 40px 20px;
+  }
+  .xidmetler-main-etrafli:hover{
+    transition: 0.4s;
+    color: black;
   }

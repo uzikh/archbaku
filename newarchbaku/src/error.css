@@ -1,0 +1,31 @@
+/* *{
+    background-color: #F6F6F6;
+
+} */
+.error-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 600px;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    background-color: #F6F6F6;
+
+
+
+}
+.error-section-title{
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+.error-section-button{
+    border: 1px #016B38 solid;
+    padding: 25px;
+    /* background-color: white; */
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color:#016B38  ;
+}

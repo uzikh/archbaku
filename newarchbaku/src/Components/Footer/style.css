@@ -1,0 +1,83 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../assets/footer.svg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+gap: 270px;
+
+
+}
+.first-column{
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+}
+.first-column-first-row{
+    margin-top: 90px;
+    margin-bottom: 35px;
+}
+.first-column-second-row{
+    color: white;
+    width: 298px;
+        margin-bottom: 35px;
+
+}
+.first-column-third-row{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+
+    margin-bottom: 35px;
+}    
+.footer-icon{
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.facebook-footer,.instagram-footer,.linkedin-footer,.whatsapp-footer{
+    width: 23px;
+height: 21px;
+
+
+
+}
+.second-column-first-row{
+    margin-top: 90px;
+    margin-bottom: 35px;
+    color: white;
+}
+.footer-navbar{
+    color: white;
+    margin-bottom: 25px;
+}
+.third-column{
+    display: flex;
+    flex-direction: column;
+}
+.third-column-first-row{
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 35px;
+}
+.third-column-first-image{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 80px;
+    height: 80px;
+}
+.third-column-second-image{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 80px;
+    height: 80px;
+}
+.footer-image{
+    width: 80px;
+    height: 80px;
+}

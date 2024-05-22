@@ -1,0 +1,97 @@
+.layiheler-section-top{
+    background-image: url(./assets/helmet-projects-image.png);
+    background-position: center center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    color: white;   
+}
+
+.vertical-line{
+    color: #B08968;
+}
+.layiheler-section-top-content{
+    background-color: #0A4227;
+    opacity: 85%;
+    padding:140px;
+    font-family: "Roboto", sans-serif;
+
+}
+.layiheler-top-content-text{
+    padding-left: 15px;
+    padding-top: 20px;
+    font-weight: 500;
+    font-style: normal;
+}
+.layiheler-top-content-text-span{
+    color: grey;
+}
+.layiheler-section-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+}
+.layiheler-section-bottom-content{
+    width: 83%;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+.layiheler-section-bottom-content-left{
+    width: 60%;
+   position: relative;
+
+}
+.layiheler-section-bottom-content-right{
+    width: 38%;
+}
+.video-image{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    
+}
+.video-play-button{
+    position: absolute;
+    left: 45%;
+    top: 180px;
+    padding: 13px;
+    background-color: #B08968;
+    font-size: 20px;
+    color: white;
+    border: 0px;
+    width: 53px;
+    border-radius: 24px;
+}
+.layiheler-section-left-title{
+    margin-top: 20px;
+}
+.layiheler-section-left-text{
+    color: grey;
+    font-weight: 400;
+}
+.layiheler-section-left-side-images{
+    display: flex;
+    justify-content: space-between;
+}
+.layiheler-section-left-side-image{
+    width: 48%;
+}
+.layiheler-section-right-desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.layiheler-section-right-desc-little-image{
+    width: 40%;
+}
+.layiheler-section-right-desc-text{
+    width: 55%;
+    font-weight: bold;
+    
+    text-align: center;
+}

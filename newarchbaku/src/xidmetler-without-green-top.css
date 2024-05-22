@@ -1,0 +1,42 @@
+.xidmetler{
+    padding: 95px;
+    font-size: 35px;
+    background-image:url(.//../../assets/images/xidmetler.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90%;
+  }
+  .xidmetler-row1,.xidmetler-row2{
+    font-weight: bold;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .xett{
+    color: #b08968;
+  }
+  .xidmetler-main{
+    /* margin-left: 20px; */
+    background-color: #ffffff;
+    padding: 20px;
+    width: 30%;
+  
+  
+  }
+  .xidmetler-main2{
+    padding: 20px;
+  }
+  .xidmetler-main-p{
+    width: 303px;
+  
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .xidmetler-main-etrafli{
+    font-size: 16px;
+    color: #016B38;
+    ;
+  }

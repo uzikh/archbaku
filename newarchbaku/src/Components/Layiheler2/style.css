@@ -1,0 +1,155 @@
+.layiheler-section-top{
+  background-image: url(..//../assets/helmet-projects-image.png);
+  background-position: center center;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  color: white;   
+}
+
+
+.vertical-line{
+  color: #B08968;
+}
+.layiheler-section-top-content{
+  background-color: #0A4227;
+  opacity: 85%;
+  padding: 100px 140px;
+  font-family: "Roboto", sans-serif;
+
+}
+.layiheler-top-content-text{
+  padding-left: 15px;
+  padding-top: 20px;
+  font-weight: 500;
+  font-style: normal;
+}
+.layiheler-top-content-text-span{
+  color: #b08968;
+}
+.layiheler-navbar{
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Layihələr {
+    background-image: url(.//../../assets/images/Group42.svg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 80px;
+  }
+  .layiheler-h2 {
+    color: #fff;
+    font-size: 43px;
+  }
+  .layiheler-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .layihe-btn {
+    background-color: transparent;
+    height: 60px;
+    width: 160px;
+    color: #ffffff;
+    border: solid;
+    font-size: 22px;
+  }
+  .layihe-btn:hover{
+    background-color: #fff;
+    color: #5e5e5e;
+    transition: .4s;
+  }
+  
+  
+  .layiheler-img {
+  
+    margin-top: 50px;
+    gap: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+  }
+  .photo-desc{
+    position: absolute;
+    color: #fff;
+  }
+  .layiheler-photo1{
+   
+    
+      background-image: url(.//../../assets/images/Rectangle9.svg);
+
+  }
+  .layiheler-photo2{
+   
+    background-image: url(.//..//../assets/images/Rectangle11.svg);
+  }
+  .layiheler-photo3{
+    background-image: url(.//..//../assets/images/Rectangle13.svg);
+  }
+  .layiheler-photo4{
+   
+    background-image: url(.//..//../assets/images/Rectangle15.svg);
+  
+  }
+  .layiheler-photo1,.layiheler-photo2,.layiheler-photo3,.layiheler-photo4{
+    color: #fff;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;        
+    font-size: 20px;
+  }
+  .layihelər-text{
+    width: 56%;
+    margin-left: 17px;
+    margin-bottom: 30px;
+    
+  }
+  
+  .layiheler-etrafli{
+    margin-left: 17px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.884);
+    text-decoration: none;
+  
+  }
+
+  .layiheler-navbar-hamisi{
+    border-bottom: 2px solid #0B5531;
+    
+  }
+  .layiheler-navbar-element{
+    padding: 10px 10px;
+    color: #5E5E5E;
+  }
+  .layiheler-photo4:hover{
+    transition: 0.3s;
+    filter: brightness(80%);
+    
+  }
+  .layiheler-photo3:hover{
+    filter: brightness(80%);
+    transition: 0.3s;
+
+  }
+  .layiheler-photo2:hover{
+    filter: brightness(80%);
+    transition: 0.3s;
+
+  }
+  .layiheler-photo1:hover{
+    filter: brightness(80%);
+    transition: 0.3s;
+
+  }
+  .layiheler-etrafli:hover{
+    transition: 0.3s;
+    color: #8d7373;
+  }

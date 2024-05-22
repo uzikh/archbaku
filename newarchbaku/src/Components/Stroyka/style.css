@@ -1,5 +1,5 @@
 .stroyka {
-    /* background-image: url(../../assets/images/Group481.svg); */
+    background-image: url(../../assets/images/Group481.svg);
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -7,6 +7,7 @@
     align-items: center;
     flex-direction: column;
     color: #fff;
+
   }
   .stroyka-title {
     font-size: 50px;
@@ -22,4 +23,9 @@
     border: 2px solid #fff;
     padding: 10px 30px;
     margin-top: 70px;
+  }
+  .stroyka-button:hover {
+    transition: 0.7s;
+    color: #fff;
+    background-color: black;
   }

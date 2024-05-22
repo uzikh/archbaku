@@ -64,228 +64,25 @@
     } */
   }
 }
-.stroyka {
-  background-image: url(../../assets/images/Group481.svg);
-  height: 100vh;
-  background-size: cover;
+
+.navbar-items{
+  font-size: 19px;
+  display: flex;
+  justify-content:space-between;
+  width:85%;
+}
+.navbar{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-items-main{
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: #fff;
-}
-.stroyka-title {
-  font-size: 50px;
-  color: #fff;
-}
-.stroyka-text {
-  margin-top: 22px;
-  text-align: center;
-
-  width: 600px;
-}
-.stroyka-button {
-  border: 2px solid #fff;
-  padding: 10px 30px;
-  margin-top: 70px;
-}
-
-.stroyka {
-  background-image: url(../../assets/images/Group481.svg);
-  height: 100vh;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: #fff;
-}
-.stroyka-title {
-  font-size: 50px;
-  color: #fff;
-}
-.stroyka-text {
-  margin-top: 22px;
-  text-align: center;
-
-  width: 600px;
-}
-.stroyka-button {
-  border: 2px solid #fff;
-  padding: 10px 30px;
-  margin-top: 70px;
-}
-.haqqimizda {
-  background-image: url(../../assets/images/image3.svg);
-  height: 500px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 70px 100px;
-}
-.haqqimizda-left {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-}
-.haqqimizda-right {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.haqqimizda-img {
-  width: 388px;
-}
-
-.haqqimizda-button {
-  background-color: #b08968;
-  padding: 10px 20px;
-  width: 130px;
-  text-align: center;
-  border-radius: 5px;
-  color: white;
-  font-size: 18px;
-}
-.haqqimizda-button:hover{
-  background-color: #000000;
-  color: #5e5e5e;
-  transition: .4s;
-}
-.Layihələr {
-  background-image: url(.//../../assets/images/Group42.svg);
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 70px 100px;
-}
-.layiheler-h2 {
-  color: #fff;
-  font-size: 43px;
-}
-.layiheler-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  /* width: 95%; */
-}
-.layihe-btn {
-  background-color: transparent;
-  height: 60px;
-  width: 160px;
-  color: #ffffff;
-  /* border: #fff; */
-  border: solid;
-  font-size: 22px;
-}
-.layihe-btn:hover{
-  background-color: #fff;
-  color: #5e5e5e;
-  transition: .4s;
-}
-
-
-.layiheler-img {
-
-  margin-top: 50px;
-  gap: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between ;
-}
-.photo-desc{
-  position: absolute;
-  color: #fff;
-}
-.layiheler-photo1{
-  width: 300px;
-  height: 360px;
-  
-    background-image: url(.//../../assets/images/Rectangle9.svg);
-}
-.layiheler-photo2{
-  width: 350px;
-  height: 360px;
-  background-image: url(.//..//../assets/images/Rectangle11.svg);
-}
-.layiheler-photo3{
-  width: 350px;
-  height: 360px;
-  background-image: url(.//..//../assets/images/Rectangle13.svg);
-}
-.layiheler-photo4{
-  width: 350px;
-  height: 360px;
-  background-image: url(.//..//../assets/images/Rectangle15.svg);
-
-}
-.layiheler-photo1,.layiheler-photo2,.layiheler-photo3,.layiheler-photo4{
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;        
-  font-size: 20px;
-}
-.layihelər-text{
-  width: 56%;
-  margin-left: 17px;
-  margin-bottom: 30px;
-  
-}
-
-.layiheler-etrafli{
-  margin-left: 17px;
-  margin-bottom: 10px;
-  color: #b08968;
-
-}
-.xidmetler{
-  padding: 95px;
-  font-size: 35px;
-  background-image:url(.//../../assets/images/xidmetler.svg);
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 90%;
-}
-.xidmetler-row1,.xidmetler-row2{
-  font-weight: bold;
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-between;
-}
-.xett{
-  color: #b08968;
-}
-.xidmetler-main{
-  /* margin-left: 20px; */
-  background-color: #ffffff;
-  padding: 20px;
-  width: 30%;
-
-
-}
-.xidmetler-main2{
-  margin-left: 35px;
-}
-.xidmetler-main-p{
-  width: 303px;
-
-  font-weight: lighter;
-  margin-top: 10px;
-  margin-bottom: 22px;
-  margin-top: 10px;
-  font-size: 14px;
-}
-.xidmetler-main-etrafli{
-  font-size: 16px;
-  color: #016B38;
-  ;
+  padding: 10px 0px;
+} 
+.navbar-item{
+  text-decoration: none;
+  color: black;
 }
