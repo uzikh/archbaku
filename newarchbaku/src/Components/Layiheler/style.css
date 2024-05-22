@@ -30,6 +30,7 @@
     background-color: #fff;
     color: #5e5e5e;
     transition: .4s;
+    cursor: pointer;
   }
   
   .layiheler-navbar{
@@ -91,4 +92,7 @@
     margin-left: 17px;
     margin-bottom: 10px;
     color: #b08968;
+  }
+  .layiheler-etrafli:hover{
+    cursor: pointer;
   }

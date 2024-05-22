@@ -86,3 +86,6 @@
   text-decoration: none;
   color: black;
 }
+.navbar-item:hover{
+  cursor: pointer;
+}

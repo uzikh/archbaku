@@ -32,7 +32,7 @@ gap: 270px;
     margin-bottom: 35px;
 }    
 .footer-icon{
-
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -40,14 +40,26 @@ gap: 270px;
 .facebook-footer,.instagram-footer,.linkedin-footer,.whatsapp-footer{
     width: 23px;
 height: 21px;
+cursor: pointer;
 
 
-
+}
+.footer-icon:hover{
+    cursor: pointer;
+    color: black;
 }
 .second-column-first-row{
     margin-top: 90px;
     margin-bottom: 35px;
     color: white;
+}
+.footer-navbar{
+    text-decoration: none;
+}
+.footer-navbar:hover{
+    cursor: pointer;
+    color: black;
+    transition: .5s;
 }
 .footer-navbar{
     color: white;

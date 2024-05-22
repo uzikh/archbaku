@@ -70,4 +70,10 @@
   .xidmetler-main-etrafli:hover{
     transition: 0.4s;
     color: black;
+    cursor: pointer;
+  }
+  .xidmetler-main:hover{
+    transition: .4s;
+    cursor: pointer;
+    color: #5e5e5e;
   }
